@@ -36,7 +36,7 @@ export default function Payments() {
           Samarth Appalabattula
         </summary>
         <div style={{ marginTop: "1rem" }}>
-          {/* Empty for now */}
+          Cash Payments accepted.
         </div>
       </details>
 
@@ -45,7 +45,7 @@ export default function Payments() {
           Arjun Krishna Gundimeda
         </summary>
         <div style={{ marginTop: "1rem" }}>
-          {/* Empty for now */}
+          Cash Payments accepted.
         </div>
       </details>
     </main>
