@@ -15,28 +15,9 @@ export default function Timeline() {
   ];
 
   return (
-    <div style={{ position: "relative", paddingLeft: "30px" }}>
+    <div className="timeline">
       {events.map((event, index) => (
-        <div key={index} style={{ marginBottom: "2rem", position: "relative" }}>
-          <div style={{
-            position: "absolute",
-            left: "-30px",
-            top: "0",
-            width: "2px",
-            height: "100%",
-            backgroundColor: "#ccc",
-          }}></div>
-          <div style={{
-            position: "absolute",
-            left: "-35px",
-            top: "0",
-            width: "12px",
-            height: "12px",
-            borderRadius: "50%",
-            backgroundColor: "#2c3e50",
-            border: "2px solid white",
-            boxSizing: "border-box",
-          }}></div>
+        <div key={index} className="timeline-item">
           <h3 style={{ margin: "0 0 0.5rem 0", color: "#2c3e50" }}>{event.year}</h3>
           <p style={{ margin: 0 }}>{event.description}</p>
         </div>

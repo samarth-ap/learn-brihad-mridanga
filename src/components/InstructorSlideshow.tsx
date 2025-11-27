@@ -39,11 +39,11 @@ export default function InstructorSlideshow() {
       <Slider {...settings}>
         {instructors.map((instructor, index) => (
           <div key={index} style={{ padding: "1rem" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
+            <div className="instructor-slide">
               <img
                 src={instructor.image}
                 alt={instructor.name}
-                style={{ width: "150px", height: "150px", borderRadius: "50%", objectFit: "cover", aspectRatio: "1/1" }}
+                className="instructor-photo"
               />
               <div>
                 <h3>{instructor.name}</h3>

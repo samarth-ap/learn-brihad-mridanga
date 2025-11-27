@@ -9,7 +9,7 @@ export default function Registration() {
   }, []);
 
   return (
-    <main style={{ paddingTop: "0.5rem", paddingLeft: "2rem", paddingRight: "2rem", paddingBottom: "2rem" }}>
+    <main>
       <h1>Class Registration</h1>
       <EmbedFrame src={FORM_URL} title="Google Form" height={1200} />
     </main>
