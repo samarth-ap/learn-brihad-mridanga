@@ -7,7 +7,7 @@ import hari from "../assets/hari-photo.png";
 
 const instructors = [
   {
-    name: "Samarth Appalabattula",
+    name: "Samarth Cheppak",
     bio: "Samarth is a 10th grader at Eastlake High School who has been playing the mridanga for many years. His passion for the instrument has grown into a love for teaching, and he enjoys helping students build confidence in their mridanga playing so they can experience the joy of rhythm and music just as he does.",
     image: samarth,
   },
