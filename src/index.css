@@ -113,11 +113,15 @@ h1 {
 @media (max-width: 600px) {
   .lbm-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .lbm-title {
     font-size: 1.1rem;
+  }
+
+  .lbm-nav {
+    justify-content: center;
   }
 }
 
