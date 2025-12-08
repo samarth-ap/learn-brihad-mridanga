@@ -6,7 +6,7 @@ export default function Payments() {
       <h1>Donations</h1>
 
       <details className="payment-section">
-        <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem" }}>
+        <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem", color: "inherit" }}>
           Harisri Yerramsetti
         </summary>
 
@@ -32,7 +32,7 @@ export default function Payments() {
       </details>
 
       <details className="payment-section">
-        <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem" }}>
+        <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem", color: "inherit" }}>
           Samarth Appalabattula
         </summary>
         <div style={{ marginTop: "1rem" }}>
@@ -41,7 +41,7 @@ export default function Payments() {
       </details>
 
       <details className="payment-section">
-        <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem" }}>
+        <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem", color: "inherit" }}>
           Arjun Krishna Gundimeda
         </summary>
         <div style={{ marginTop: "1rem" }}>

@@ -11,7 +11,12 @@ export default function Registration() {
   return (
     <main>
       <h1>Class Registration</h1>
-      <EmbedFrame src={FORM_URL} title="Google Form" height={1200} />
+      <EmbedFrame
+        src={FORM_URL}
+        title="Google Form"
+        height={1200}
+        invertColors
+      />
     </main>
   );
 }

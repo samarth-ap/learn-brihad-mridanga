@@ -35,7 +35,15 @@ export default function InstructorSlideshow() {
   };
 
   return (
-    <div style={{ backgroundColor: "white", padding: "2rem", borderRadius: "8px" }}>
+    <div
+      style={{
+        background:
+          "radial-gradient(circle at top left, rgba(241, 194, 50, 0.12), #181c24)",
+        padding: "2rem",
+        borderRadius: "12px",
+        border: "1px solid rgba(48, 55, 68, 0.9)",
+      }}
+    >
       <Slider {...settings}>
         {instructors.map((instructor, index) => (
           <div key={index} style={{ padding: "1rem" }}>

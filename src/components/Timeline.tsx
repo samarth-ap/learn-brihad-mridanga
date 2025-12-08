@@ -18,7 +18,7 @@ export default function Timeline() {
     <div className="timeline">
       {events.map((event, index) => (
         <div key={index} className="timeline-item">
-          <h3 style={{ margin: "0 0 0.5rem 0", color: "#2c3e50" }}>{event.year}</h3>
+          <h3 className="timeline-year">{event.year}</h3>
           <p style={{ margin: 0 }}>{event.description}</p>
         </div>
       ))}
