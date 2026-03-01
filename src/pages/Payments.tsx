@@ -40,14 +40,14 @@ export default function Payments() {
         </div>
       </details>
 
-      <details className="payment-section">
+      {/* <details className="payment-section">
         <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem", color: "inherit" }}>
           Arjun Krishna Gundimeda
         </summary>
         <div style={{ marginTop: "1rem" }}>
           Cash Payments accepted.
         </div>
-      </details>
+      </details> */}
     </main>
   );
 }
