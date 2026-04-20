@@ -1,5 +1,7 @@
 import zelleHari from "../assets/qr-zelle.png";
 import venmoHari from "../assets/qr-venmo.png";
+import zelleArjun from "../assets/qr-zelle-arjun.png";
+
 export default function Payments() {
   return (
     <main>
@@ -40,14 +42,21 @@ export default function Payments() {
         </div>
       </details>
 
-      {/* <details className="payment-section">
+      <details className="payment-section">
         <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem", color: "inherit" }}>
           Arjun Krishna Gundimeda
         </summary>
         <div style={{ marginTop: "1rem" }}>
-          Cash Payments accepted.
+          <section style={{ marginTop: "1rem" }}>
+            <h2 style={{ margin: 0, fontSize: "1rem" }}>Zelle</h2>
+            <img
+              src={zelleArjun}
+              alt="Zelle QR"
+              className="qr-image"
+            />
+          </section>
         </div>
-      </details> */}
+      </details>
     </main>
   );
 }
