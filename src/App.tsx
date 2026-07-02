@@ -45,7 +45,12 @@ export default function App() {
         </nav>
       </header>
       <Outlet />
-      <footer className="lbm-footer">© {new Date().getFullYear()} Learn Brihad Mridanga</footer>
+      <footer className="lbm-footer">
+        <div>© 2026 Learn Brihad Mridanga. All rights reserved.</div>
+        <div>
+          Learn Brihad Mridanga is a registered trade name of Harisri Yerramsetti in the State of Washington.
+        </div>
+      </footer>
     </div>
   );
 }

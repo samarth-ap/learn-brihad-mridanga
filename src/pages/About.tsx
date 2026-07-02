@@ -27,12 +27,11 @@ export default function About() {
             Encourage teaching as a way to reinforce learning and give back
           </li>
           <li>
-            Support the culture of kirtan by training the next generation of
-            mridanga players
+            Support the culture of kirtan by training the next generation
           </li>
         </ul>
         <p>
-          At its heart, LBM is about passing down tradition in a way that’s
+          At its heart, LBM is about passing down tradition in a way that is
           practical, inspiring, and community-driven.
         </p>
 

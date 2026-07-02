@@ -6,7 +6,7 @@ export default function Timeline() {
     },
     {
       year: "Goal",
-      description: "The goal was simple: to make learning mridanga accessible, structured, and fun—especially for younger devotees who wanted to deepen their connection to kirtan.",
+      description: "It was simple: to make learning mridanga accessible, structured, and fun—especially for younger students, by using age-appropriate teaching methods that meet them where they are.",
     },
     {
       year: "Since then",
