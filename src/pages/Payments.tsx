@@ -1,4 +1,4 @@
-import zelleQr from "../assets/qr-zelle.jpg";
+import zelleQr from "../assets/qr-zelle.png";
 
 export default function Payments() {
   return (
@@ -52,7 +52,7 @@ export default function Payments() {
         </div>
       </details>
 
-      <details className="payment-dropdown" open>
+      <details className="payment-dropdown">
         <summary className="payment-dropdown__summary">
           <span className="payment-dropdown__title-wrap">
             <span className="payment-dropdown__title">Details</span>
