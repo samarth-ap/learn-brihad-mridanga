@@ -8,17 +8,17 @@ import hari from "../assets/hari-photo.png";
 const instructors = [
   {
     name: "Samarth Appalabattula",
-    bio: "Samarth is a 10th grader at Eastlake High School who has been playing the mridanga for many years. His passion for the instrument has grown into a love for teaching, and he enjoys helping students build confidence in their mridanga playing so they can experience the joy of rhythm and music just as he does.",
+    bio: "Samarth is a passionate high schooler who has been learning and playing the mridanga for many years. His passion for the instrument has grown into a love for teaching, and he enjoys helping students build confidence in their playing skills to better experience the joy of rhythm and music, just as he does.",
     image: samarth,
   },
-  {
-    name: "Arjun Krishna Gundimeda",
-    bio: "Arjun is a freshman at Skyline High School with a love for music and teaching. He plays the mridanga, enjoys chess, and is especially passionate about teaching. Arjun brings a calm and patient approach to teaching, always taking the time to make sure his students feel confident and supported as they learn.",
-    image: arjun,
-  },
+  // {
+  //   name: "Arjun Krishna Gundimeda",
+  //   bio: "Arjun is a freshman at Skyline High School with a love for music and teaching. He plays the mridanga, enjoys chess, and is especially passionate about teaching. Arjun brings a calm and patient approach to teaching, always taking the time to make sure his students feel confident and supported as they learn.",
+  //   image: arjun,
+  // },
   {
     name: "Harisri Yerramsetti",
-    bio: "Harisri is the visionary behind the inception of LBM. With five years of teaching experience, he is committed to building a strong rhythmic foundation for his students through diverse and effective teaching methods.",
+    bio: "Harisri is the founder of Learn Brihad Mridanga (LBM). With several years of teaching experience, he is committed to building a structured school for rhythm education through organized, diverse and effective teaching methods.",
     image: hari, 
   },
 ];

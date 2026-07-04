@@ -462,15 +462,45 @@ h3 {
 
 .payment-steps {
   margin: 0.85rem 0 0;
-  padding-left: 1.15rem;
+  padding-left: 0;
+  list-style: none;
+  counter-reset: payment-step;
 }
 
 .payment-steps--numbered {
-  padding-left: 1.3rem;
+  padding-left: 0;
 }
 
 .payment-steps li + li {
   margin-top: 0.7rem;
+}
+
+.payment-steps li {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: start;
+  counter-increment: payment-step;
+  color: var(--lbm-text-muted);
+  line-height: 1.6;
+}
+
+.payment-steps li::before {
+  content: counter(payment-step);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0;
+  border: 1px solid rgba(241, 194, 50, 0.24);
+  border-radius: 999px;
+  background: rgba(241, 194, 50, 0.1);
+  color: var(--lbm-accent);
+  font-size: 0.84rem;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
 }
 
 .payment-dropdown {
