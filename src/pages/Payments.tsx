@@ -1,9 +1,20 @@
+import zelleLogo from "../assets/zelle-logo.png";
 import zelleQr from "../assets/qr-zelle.png";
 
 export default function Payments() {
   return (
     <main className="payments-page">
       <section className="payments-hero">
+        <div className="payments-hero__brand" aria-hidden="true">
+          <div className="payments-hero__logo-frame">
+            <img
+              src={zelleLogo}
+              alt=""
+              className="payments-hero__logo"
+            />
+          </div>
+        </div>
+
         <div className="payments-hero__copy">
           <p className="payments-kicker">Payments</p>
           <h1>Zelle</h1>
